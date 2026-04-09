@@ -1,0 +1,74 @@
+body{
+
+
+    background-color: #911919;
+    font-family: Arial, sans-serif;
+
+}
+.encabezado{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    color: #911919;
+}
+
+.predica,
+.libros,
+.super,
+.historia,
+.serie,
+.nota{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+  
+}
+
+.predica h1,
+.libros h1,
+.super h1,
+.historia h1,
+.serie h1,
+.nota h2{
+
+background-color: aqua;
+   border-radius: 20px;
+   align-items: center;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   color: #911919;
+   padding: 20px;
+   font-size: large;
+}
+
+.predica img,
+.libros img,
+.super img,
+.super img,
+.historia img,
+.historia img,
+.serie img,
+.nota img{
+height: 80px;
+    width: 80px;
+    border-radius: 15px;
+    object-fit: cover;
+    
+   
+}
+
+
+.predica :hover,
+.libros :hover,
+.super :hover,
+.super :hover,
+.historia :hover,
+.historia :hover,
+.serie :hover,
+.nota :hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

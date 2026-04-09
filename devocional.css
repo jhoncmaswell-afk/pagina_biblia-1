@@ -1,0 +1,110 @@
+body{
+
+background-color: rgb(235, 157, 67);
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.titulo{
+
+color: rgb(15, 14, 12);
+box-shadow: 5px 10px rgb(31, 21, 21);
+
+
+   
+}
+
+
+.banner{
+width:100%;
+height:200px;
+overflow:hidden;
+border-radius:20px;
+}
+
+.banner img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+
+
+
+.buscar input{
+width: 300px;
+height: 30px;
+margin: 20px;
+border-radius: 10px;
+box-shadow: 0 5px 10px rgb(24, 19, 19);
+}
+.contenedor{
+display: grid;
+gap: 29px;
+grid-template-columns: 1fr 2fr ;
+
+}
+
+
+.fe{
+    
+color: rgb(12, 7, 5);
+box-shadow: 5px 10px rgb(31, 21, 21);
+}
+.ira{
+color: rgb(199, 50, 50);
+box-shadow: 5px 10px rgb(31, 21, 21);
+}
+.gozo{
+color: rgb(239, 250, 92);
+box-shadow: 5px 10px rgb(31, 21, 21);
+}
+.amor{
+color: rgb(236, 15, 15);
+box-shadow: 5px 10px rgb(10, 6, 6);
+}
+.esperanza{
+color: rgb(17, 59, 122);
+box-shadow: 5px 10px rgb(31, 21, 21);
+}
+.paz{
+color: rgb(255, 253, 252);
+box-shadow: 5px 10px rgb(31, 21, 21);
+}
+
+/*hover*/
+.fe:hover{
+    transform: scale(1.1);
+color: rgb(12, 7, 5);
+box-shadow: 5px 10px rgb(31, 21, 21);
+}
+.ira:hover{
+    transform: scale(1.1);
+color: rgb(199, 50, 50);
+box-shadow: 5px 10px rgb(31, 21, 21);
+}
+.gozo:hover{
+    transform: scale(1.1);
+color: rgb(239, 250, 92);
+box-shadow: 5px 10px rgb(31, 21, 21);
+}
+.amor:hover{
+    transform: scale(1.1);
+color: rgb(236, 15, 15);
+box-shadow: 5px 10px rgb(10, 6, 6);
+}
+.esperanza:hover{
+    transform: scale(1.1);
+color: rgb(17, 59, 122);
+box-shadow: 5px 10px rgb(31, 21, 21);
+}
+.paz:hover{
+    transform: scale(1.1);
+color: rgb(255, 253, 252);
+box-shadow: 5px 10px rgb(31, 21, 21);
+}
+
+
+
+
+

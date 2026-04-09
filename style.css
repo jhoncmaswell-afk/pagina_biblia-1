@@ -1,0 +1,99 @@
+body{
+background-color: rgb(235, 157, 67);
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+background-repeat: no-repeat;
+
+
+
+}
+
+
+.foto{
+box-shadow: 0 5px 10px rgb(46, 30, 30) ;
+display: flex;
+gap: 20px;
+justify-content: center;
+flex-wrap: wrap;
+
+
+
+
+
+
+    
+}
+
+.foto img:hover{
+border-radius: 10px;
+width: 100%;
+
+
+}
+
+
+
+
+h1{
+
+    color: rgb(15, 14, 12);
+    box-shadow: 5px 10px rgb(31, 21, 21);
+}
+footer{
+background-color: rgb(189, 193, 214);
+text-align: center;
+border-radius: 10px;
+box-shadow: 0 5px 10px rgb(24, 19, 24);
+}
+.jhon{
+
+    background-color: rgb(240, 241, 241);
+  
+      box-shadow: 0px 5px 7px rgb(43, 26, 26);
+   
+    color: rgb(10, 15, 15);
+}
+
+.logo img{
+width: 50px;
+border-radius: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    box-shadow: 0 5px 10px rgb(31, 21, 21);
+    transition: .5s  ;
+
+    
+}
+.logo :hover{
+    transform: scale(1.1);
+
+
+}
+
+
+
+
+section{
+
+    display: flex ;/*define un contenedor flexible que permite organizar los elementos hijos en una fila o columna, dependiendo de la dirección especificada (en este caso, por defecto es fila)*/
+    justify-content: center;/*centra los elementos hijos horizontalmente dentro del contenedor flexible
+    width: 600px;/*define un contenedor flexible con un ancho de 600 píxeles, lo que permite organizar los elementos hijos en una fila o columna según sea necesario*/
+    height: 530px;/*define un contenedor flexible con un ancho de 600 píxeles y una altura de 430 píxeles, lo que permite organizar los elementos hijos en una fila o columna según sea necesario*/
+}
+section img{
+
+    width: 0px;/*la imagen comienza con un ancho de 0 píxeles, lo que significa que no es visible inicialmente*/
+    flex-grow: 1;/*la imagen se expande para llenar el espacio disponible en el contenedor, manteniendo su proporción original*/
+    opacity: 08;/*la imagen es parcialmente transparente, con un valor de opacidad de 0.8, lo que significa que es un 80% visible y un 20% transparente*/
+    object-fit:cover;/*la imagen se ajusta al tamaño del contenedor sin distorsionarse, manteniendo su proporción original*/
+    transition: .5s  ease;/*aplica una transición suave de 0.6 segundos al cambiar las propiedades de la imagen, con una función de tiempo "ease" para suavizar el efecto de transición*/
+    border-radius: 13px;
+    height: 100%;
+}
+section img:hover{
+cursor: crosshair;/*el cursor cambia a una cruz al pasar el mouse por encima de la imagen*/
+width: 400px;/*aumenta el tamaño de la imagen al pasar el mouse por encima*/
+opacity: 1;/*la imagen se vuelve completamente visible al pasar el mouse por encima*/
+filter: contrast(120%);/*aplica un filtro de contraste para mejorar la apariencia de la imagen al pasar el mouse por encima*/
+}
